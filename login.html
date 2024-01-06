@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="login.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<title>Login</title>
+<link rel="icon" href="Logo.png" type="image/icon type">
+
+<script>
+    function log() {
+        if (document.getElementById("username").value == "admin" && document.getElementById("password").value == "admin") {
+            alert("log-in successful");
+        } else {
+            alert("log-in failed");
+        }
+    }
+</script>
+
+<body>
+    <header>
+        <div class="nav-bar">
+            <div class="LogoClass">
+                <div>
+                    <img id="logo" src="Logo.png">
+                </div>
+                <div class="uldiv">
+                    <ul>
+                        <li class="mob"><a href="index.html">Home</a></li>
+                        <li class="mob"><a href="Testimonials.html">Testimonials</a></li>
+                        <li class="mob"><a href="AboutUs.html">About Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <ul>
+                    <li id="login"><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="LoginMain">
+        <div class="wrapper">
+            <div class="heading">
+                <h2>Welcome!</h2>
+                <p>Sign In to your account</p>
+            </div>
+            <div class="input-group">
+                <input type="text" id="username" class="input-field" placeholder="Username">
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" class="input-field" placeholder="Password">
+            </div>
+            <div class="input-group row">
+                <div class="row">
+                    <input type="checkbox" id="remember" hidden>
+                    <label for="remember" class="custom-checkbox"></label>
+                    <label for="remember">Remember me?</label>
+                </div>
+                <div class="row">
+                    <a href="#" target="_blank">Forgot password?</a>
+                </div>
+            </div>
+            <div class="input-group">
+                <button id="log" onclick="log()">Login <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

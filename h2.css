@@ -1,0 +1,68 @@
+h1 {
+    color: #333;
+    text-align: center;
+  }
+.ContactUsheader{
+    color: #0066cc;
+    text-decoration: none;
+} 
+
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+  }
+  .test{
+    text-align: start;
+  }
+  
+  .social-links ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-links ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: auto;
+
+    height: 600px;
+    
+    margin: 150px 100px 200px 150px;
+    padding: 100px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  body {
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  html{
+    width: 100%;
+  }
+  main{
+        
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
